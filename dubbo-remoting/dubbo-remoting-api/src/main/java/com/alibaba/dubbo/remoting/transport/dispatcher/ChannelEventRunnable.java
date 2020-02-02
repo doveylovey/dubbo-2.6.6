@@ -61,37 +61,37 @@ public class ChannelEventRunnable implements Runnable {
             }
         } else {
             switch (state) {
-            case CONNECTED:
-                try {
-                    handler.connected(channel);
-                } catch (Exception e) {
-                    logger.warn("ChannelEventRunnable handle " + state + " operation error, channel is " + channel, e);
-                }
-                break;
-            case DISCONNECTED:
-                try {
-                    handler.disconnected(channel);
-                } catch (Exception e) {
-                    logger.warn("ChannelEventRunnable handle " + state + " operation error, channel is " + channel, e);
-                }
-                break;
-            case SENT:
-                try {
-                    handler.sent(channel, message);
-                } catch (Exception e) {
-                    logger.warn("ChannelEventRunnable handle " + state + " operation error, channel is " + channel
-                            + ", message is " + message, e);
-                }
-            case CAUGHT:
-                try {
-                    handler.caught(channel, exception);
-                } catch (Exception e) {
-                    logger.warn("ChannelEventRunnable handle " + state + " operation error, channel is " + channel
-                            + ", message is: " + message + ", exception is " + exception, e);
-                }
-                break;
-            default:
-                logger.warn("unknown state: " + state + ", message is " + message);
+                case CONNECTED:
+                    try {
+                        handler.connected(channel);
+                    } catch (Exception e) {
+                        logger.warn("ChannelEventRunnable handle " + state + " operation error, channel is " + channel, e);
+                    }
+                    break;
+                case DISCONNECTED:
+                    try {
+                        handler.disconnected(channel);
+                    } catch (Exception e) {
+                        logger.warn("ChannelEventRunnable handle " + state + " operation error, channel is " + channel, e);
+                    }
+                    break;
+                case SENT:
+                    try {
+                        handler.sent(channel, message);
+                    } catch (Exception e) {
+                        logger.warn("ChannelEventRunnable handle " + state + " operation error, channel is " + channel
+                                + ", message is " + message, e);
+                    }
+                case CAUGHT:
+                    try {
+                        handler.caught(channel, exception);
+                    } catch (Exception e) {
+                        logger.warn("ChannelEventRunnable handle " + state + " operation error, channel is " + channel
+                                + ", message is: " + message + ", exception is " + exception, e);
+                    }
+                    break;
+                default:
+                    logger.warn("unknown state: " + state + ", message is " + message);
             }
         }
 
@@ -99,8 +99,6 @@ public class ChannelEventRunnable implements Runnable {
 
     /**
      * ChannelState
-     *
-     *
      */
     public enum ChannelState {
 

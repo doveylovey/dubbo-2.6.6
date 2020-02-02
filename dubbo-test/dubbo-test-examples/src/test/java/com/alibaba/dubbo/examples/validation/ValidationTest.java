@@ -30,7 +30,6 @@ import java.util.Set;
 
 /**
  * ValidationTest
- *
  */
 public class ValidationTest {
 

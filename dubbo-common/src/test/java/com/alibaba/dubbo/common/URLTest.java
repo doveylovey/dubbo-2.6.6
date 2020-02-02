@@ -639,7 +639,7 @@ public class URLTest {
     }
 
     @Test
-    public void testUserNamePasswordContainsAt(){
+    public void testUserNamePasswordContainsAt() {
         // Test username or password contains "@"
         URL url = URL.valueOf("ad@min:hello@1234@10.20.130.230:20880/context/path?version=1.0.0&application=morgan");
         assertNull(url.getProtocol());

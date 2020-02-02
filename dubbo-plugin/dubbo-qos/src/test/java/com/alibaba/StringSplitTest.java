@@ -20,7 +20,7 @@ import org.junit.Test;
 
 public class StringSplitTest {
     @Test
-    public void stringSplitTest(){
+    public void stringSplitTest() {
         String str = new String("?\\\\      helloworld ac");
         String[] result = str.split("(?<![\\\\]) ");
     }

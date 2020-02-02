@@ -53,7 +53,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * RedisRegistry
- *
  */
 public class RedisRegistry extends FailbackRegistry {
 

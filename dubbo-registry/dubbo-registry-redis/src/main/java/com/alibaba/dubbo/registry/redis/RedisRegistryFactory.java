@@ -22,7 +22,6 @@ import com.alibaba.dubbo.registry.support.AbstractRegistryFactory;
 
 /**
  * RedisRegistryFactory
- *
  */
 public class RedisRegistryFactory extends AbstractRegistryFactory {
 

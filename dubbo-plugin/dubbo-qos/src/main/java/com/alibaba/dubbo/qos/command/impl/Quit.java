@@ -21,7 +21,7 @@ import com.alibaba.dubbo.qos.command.CommandContext;
 import com.alibaba.dubbo.qos.command.annotation.Cmd;
 import com.alibaba.dubbo.qos.common.QosConstants;
 
-@Cmd(name = "quit",summary = "quit telnet console")
+@Cmd(name = "quit", summary = "quit telnet console")
 public class Quit implements BaseCommand {
     @Override
     public String execute(CommandContext commandContext, String[] args) {

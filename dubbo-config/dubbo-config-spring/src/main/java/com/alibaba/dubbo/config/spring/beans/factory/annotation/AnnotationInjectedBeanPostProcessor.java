@@ -64,7 +64,7 @@ import static org.springframework.core.annotation.AnnotationUtils.getAnnotation;
 
 /**
  * Abstract generic {@link BeanPostProcessor} implementation for customized annotation that annotated injected-object.
- *
+ * <p>
  * The source code is cloned from https://github.com/alibaba/spring-context-support/blob/1.0.2/src/main/java/com/alibaba/spring/beans/factory/annotation/AnnotationInjectedBeanPostProcessor.java
  *
  * @since 2.6.6

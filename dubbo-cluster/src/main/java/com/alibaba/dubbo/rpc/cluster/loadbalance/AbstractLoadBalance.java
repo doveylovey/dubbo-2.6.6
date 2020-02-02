@@ -26,7 +26,6 @@ import java.util.List;
 
 /**
  * AbstractLoadBalance
- *
  */
 public abstract class AbstractLoadBalance implements LoadBalance {
 

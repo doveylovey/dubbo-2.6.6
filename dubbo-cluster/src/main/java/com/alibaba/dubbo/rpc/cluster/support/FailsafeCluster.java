@@ -23,7 +23,6 @@ import com.alibaba.dubbo.rpc.cluster.Directory;
 
 /**
  * {@link FailsafeClusterInvoker}
- *
  */
 public class FailsafeCluster implements Cluster {
 

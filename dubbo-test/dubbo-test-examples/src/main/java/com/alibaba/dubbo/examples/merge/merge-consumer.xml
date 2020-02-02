@@ -25,6 +25,7 @@
 
     <dubbo:registry address="multicast://224.5.6.7:1234"/>
 
-    <dubbo:reference id="mergeService" interface="com.alibaba.dubbo.examples.merge.api.MergeService" group="*" merger="true"/>
+    <dubbo:reference id="mergeService" interface="com.alibaba.dubbo.examples.merge.api.MergeService" group="*"
+                     merger="true"/>
 
 </beans>

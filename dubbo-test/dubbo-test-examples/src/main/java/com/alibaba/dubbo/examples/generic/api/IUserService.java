@@ -35,6 +35,7 @@ public interface IUserService extends IService<Params, User> {
         private static final long serialVersionUID = 1L;
         private int id;
         private String name;
+
         public User(int id, String name) {
             super();
             this.id = id;

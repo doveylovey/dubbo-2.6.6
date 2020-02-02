@@ -43,7 +43,6 @@ import java.util.concurrent.TimeUnit;
  * Especially useful for services of notification.
  *
  * <a href="http://en.wikipedia.org/wiki/Failback">Failback</a>
- *
  */
 public class FailbackClusterInvoker<T> extends AbstractClusterInvoker<T> {
 

@@ -23,7 +23,6 @@ import com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter;
 
 /**
  * ZookeeperRegistryFactory.
- *
  */
 public class ZookeeperRegistryFactory extends AbstractRegistryFactory {
 

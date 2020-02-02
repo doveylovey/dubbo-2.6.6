@@ -22,7 +22,7 @@ import com.alibaba.dubbo.common.threadpool.ThreadPool;
 
 import java.util.concurrent.Executor;
 
-public class MockThreadPool implements ThreadPool  {
+public class MockThreadPool implements ThreadPool {
     @Override
     public Executor getExecutor(URL url) {
         return null;

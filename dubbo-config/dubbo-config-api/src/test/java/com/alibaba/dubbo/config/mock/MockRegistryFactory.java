@@ -25,7 +25,7 @@ import com.alibaba.dubbo.registry.RegistryFactory;
  */
 public class MockRegistryFactory implements RegistryFactory {
 
-    /* 
+    /*
      * @see com.alibaba.dubbo.registry.RegistryFactory#getRegistry(com.alibaba.dubbo.common.URL)
      */
     @Override

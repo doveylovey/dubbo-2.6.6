@@ -75,20 +75,20 @@ public class ApplicationModel {
         }
     }
 
-   public static void addProviderInvoker(String serviceName,Invoker invoker){
-       Set<Invoker> invokers = providedServicesInvoker.get(serviceName);
-       if (invokers == null){
-           providedServicesInvoker.putIfAbsent(serviceName,new ConcurrentHashSet<Invoker>());
-           invokers = providedServicesInvoker.get(serviceName);
-       }
-       invokers.add(invoker);
-   }
+    public static void addProviderInvoker(String serviceName, Invoker invoker) {
+        Set<Invoker> invokers = providedServicesInvoker.get(serviceName);
+        if (invokers == null) {
+            providedServicesInvoker.putIfAbsent(serviceName, new ConcurrentHashSet<Invoker>());
+            invokers = providedServicesInvoker.get(serviceName);
+        }
+        invokers.add(invoker);
+    }
 
-   public Set<Invoker> getProviderInvoker(String serviceName){
-       Set<Invoker> invokers = providedServicesInvoker.get(serviceName);
-       if (invokers == null){
-           return Collections.emptySet();
-       }
-       return invokers;
-   }
+    public Set<Invoker> getProviderInvoker(String serviceName) {
+        Set<Invoker> invokers = providedServicesInvoker.get(serviceName);
+        if (invokers == null) {
+            return Collections.emptySet();
+        }
+        return invokers;
+    }
 }

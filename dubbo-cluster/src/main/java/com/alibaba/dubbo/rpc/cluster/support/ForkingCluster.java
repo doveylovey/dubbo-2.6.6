@@ -23,7 +23,6 @@ import com.alibaba.dubbo.rpc.cluster.Directory;
 
 /**
  * {@link ForkingClusterInvoker}
- *
  */
 public class ForkingCluster implements Cluster {
 

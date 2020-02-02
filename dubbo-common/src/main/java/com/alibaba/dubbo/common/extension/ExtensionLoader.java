@@ -679,7 +679,7 @@ public class ExtensionLoader<T> {
             } else if (!cachedAdaptiveClass.equals(clazz)) {
                 throw new IllegalStateException("More than 1 adaptive class found: " + cachedAdaptiveClass.getClass().getName() + ", " + clazz.getClass().getName());
             }
-        // 通过 clazz 的构造方法，检测 clazz 是否是 Wrapper 类型。 存储在cachedWrapperClasses缓存，用于AOP实现
+            // 通过 clazz 的构造方法，检测 clazz 是否是 Wrapper 类型。 存储在cachedWrapperClasses缓存，用于AOP实现
         } else if (isWrapperClass(clazz)) {
             Set<Class<?>> wrappers = cachedWrapperClasses;
             if (wrappers == null) {

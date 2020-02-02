@@ -24,7 +24,6 @@ import org.junit.Test;
 
 /**
  * OverrideConfiguratorTest
- *
  */
 public class AbsentConfiguratorTest {
 

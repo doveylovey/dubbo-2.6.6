@@ -22,7 +22,6 @@ import com.alibaba.dubbo.registry.support.AbstractRegistryFactory;
 
 /**
  * MulticastRegistryLocator
- *
  */
 public class MulticastRegistryFactory extends AbstractRegistryFactory {
 

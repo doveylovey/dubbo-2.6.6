@@ -22,7 +22,7 @@ public class ThriftUtils {
      * Generate class name which represents service arguments.
      *
      * @param serviceName service name
-     * @param methodName method name
+     * @param methodName  method name
      * @return method args class name or null
      */
     public static String generateMethodArgsClassName(String serviceName, String methodName) {

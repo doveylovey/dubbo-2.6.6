@@ -25,7 +25,6 @@ import org.junit.Test;
 
 /**
  * OverrideConfiguratorTest
- *
  */
 public class OverrideConfiguratorTest {
 

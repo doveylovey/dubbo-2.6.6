@@ -39,7 +39,6 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Invoke a specific number of invokers concurrently, usually used for demanding real-time operations, but need to waste more service resources.
  *
  * <a href="http://en.wikipedia.org/wiki/Fork_(topology)">Fork</a>
- *
  */
 public class ForkingClusterInvoker<T> extends AbstractClusterInvoker<T> {
 

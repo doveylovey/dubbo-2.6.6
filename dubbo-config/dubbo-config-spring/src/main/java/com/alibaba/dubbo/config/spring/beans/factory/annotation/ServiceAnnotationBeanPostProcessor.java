@@ -439,7 +439,7 @@ public class ServiceAnnotationBeanPostProcessor implements BeanDefinitionRegistr
 
         Method[] methods = service.methods();
         List<MethodConfig> methodConfigs = MethodConfig.constructMethodConfig(methods);
-        if(!methodConfigs.isEmpty()){
+        if (!methodConfigs.isEmpty()) {
             builder.addPropertyValue("methods", methodConfigs);
         }
 

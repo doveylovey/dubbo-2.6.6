@@ -124,6 +124,7 @@ public class CuratorZookeeperClient extends AbstractZookeeperClient<CuratorWatch
         }
         return false;
     }
+
     @Override
     public boolean isConnected() {
         return client.getZookeeperClient().isConnected();

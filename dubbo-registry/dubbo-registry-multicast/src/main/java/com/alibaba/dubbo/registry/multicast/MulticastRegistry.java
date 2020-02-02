@@ -347,8 +347,8 @@ public class MulticastRegistry extends FailbackRegistry {
                 if (urls != null) {
                     urls.remove(url);
                 }
-                if (urls == null || urls.isEmpty()){
-                    if (urls == null){
+                if (urls == null || urls.isEmpty()) {
+                    if (urls == null) {
                         urls = new ConcurrentHashSet<URL>();
                     }
                     URL empty = url.setProtocol(Constants.EMPTY_PROTOCOL);

@@ -23,7 +23,6 @@ import com.alibaba.dubbo.rpc.cluster.Directory;
 
 /**
  * mock impl
- *
  */
 public class MockClusterWrapper implements Cluster {
 

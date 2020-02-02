@@ -22,7 +22,6 @@ import com.alibaba.dubbo.rpc.cluster.RouterFactory;
 
 /**
  * ConditionRouterFactory
- *
  */
 public class ConditionRouterFactory implements RouterFactory {
 

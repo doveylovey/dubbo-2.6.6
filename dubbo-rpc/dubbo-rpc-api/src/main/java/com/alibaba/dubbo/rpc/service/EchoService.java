@@ -18,6 +18,7 @@ package com.alibaba.dubbo.rpc.service;
 
 /**
  * Echo service.
+ *
  * @export
  */
 public interface EchoService {

@@ -51,7 +51,6 @@ import static org.mockito.Mockito.mock;
 
 /**
  * AbstractClusterInvokerTest
- *
  */
 @SuppressWarnings("rawtypes")
 public class AbstractClusterInvokerTest {

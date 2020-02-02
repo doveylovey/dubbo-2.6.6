@@ -23,7 +23,6 @@ import java.net.InetSocketAddress;
 /**
  * Endpoint. (API/SPI, Prototype, ThreadSafe)
  *
- *
  * @see com.alibaba.dubbo.remoting.Channel
  * @see com.alibaba.dubbo.remoting.Client
  * @see com.alibaba.dubbo.remoting.Server

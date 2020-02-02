@@ -30,6 +30,7 @@ import java.util.Arrays;
  * Annotated {@link BeanDefinition} Utilities
  * <p>
  * The source code is cloned from https://github.com/alibaba/spring-context-support/blob/1.0.2/src/main/java/com/alibaba/spring/util/AnnotatedBeanDefinitionRegistryUtils.java
+ *
  * @since 2.6.6
  */
 public abstract class AnnotatedBeanDefinitionRegistryUtils {

@@ -92,10 +92,10 @@ class ReferenceBeanBuilder extends AbstractAnnotationConfigBeanBuilder<Reference
 
     }
 
-    void configureMethodConfig(Reference reference, ReferenceBean<?> referenceBean){
+    void configureMethodConfig(Reference reference, ReferenceBean<?> referenceBean) {
         Method[] methods = reference.methods();
         List<MethodConfig> methodConfigs = MethodConfig.constructMethodConfig(methods);
-        if(!methodConfigs.isEmpty()){
+        if (!methodConfigs.isEmpty()) {
             referenceBean.setMethods(methodConfigs);
         }
     }

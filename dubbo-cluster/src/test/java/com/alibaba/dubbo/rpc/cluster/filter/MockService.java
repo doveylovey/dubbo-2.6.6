@@ -18,7 +18,6 @@ package com.alibaba.dubbo.rpc.cluster.filter;
 
 /**
  * MockService.java
- *
  */
 public class MockService implements DemoService {
     public String sayHello(String name) {

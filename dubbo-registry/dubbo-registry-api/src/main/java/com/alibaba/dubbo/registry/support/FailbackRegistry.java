@@ -38,7 +38,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * FailbackRegistry. (SPI, Prototype, ThreadSafe)
- *
  */
 public abstract class FailbackRegistry extends AbstractRegistry {
 
